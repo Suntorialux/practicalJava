@@ -1,7 +1,7 @@
 package Lesson2;
 
 /**
- * Created by Андрей on 29.06.2015.
+ * Created by РђРЅРґСЂРµР№ on 29.06.2015.
  */
 public class Car {
     String color;
