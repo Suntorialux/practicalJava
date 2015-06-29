@@ -5,9 +5,7 @@ package Lesson2;
  */
 public class NjTax extends Tax {
 
-    public NjTax(double grossIncome, String state, int dependets) {
-        super(grossIncome, state, dependets);
-    }
+
 
     public double adjustForStudents (double tax) {
         return tax-500;

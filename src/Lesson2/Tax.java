@@ -8,11 +8,7 @@ public class Tax {
     String state;
     int dependets;
 
-    public Tax(double grossIncome, String state, int dependets) {
-        this.grossIncome = grossIncome;
-        this.state = state;
-        this.dependets = dependets;
-    }
+
 
     public double calcTax (){
         if (grossIncome<50000) {
