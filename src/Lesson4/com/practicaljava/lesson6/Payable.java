@@ -2,5 +2,5 @@ package Lesson4.com.practicaljava.lesson6;
 
 public interface Payable {
     int INCREASE_CAP = 20; 
-	boolean increasePay(int percent);
+	String increasePay(int percent);
 }

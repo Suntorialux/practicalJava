@@ -5,8 +5,9 @@ public class Employee extends Person  implements Payable{
 	public Employee(String name){
 		super(name);
 	}
-	public boolean increasePay(int percent) {
-			System.out.println("Increasing salary by " + percent + "%. "+ getName()); 
-			return true;
+	public String increasePay(int percent) {
+		String s=new String();
+		s="Increasing salary by " + percent + "%. " + getName();
+		return s;
 	}
 }
